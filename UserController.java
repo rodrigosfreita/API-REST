@@ -4,7 +4,7 @@ import com.Kipper.First_Spring_App.model.User;
 import com.Kipper.First_Spring_App.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation. *;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 

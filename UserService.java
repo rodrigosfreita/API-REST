@@ -1,8 +1,7 @@
 package com.Kipper.First_Spring_App.service;
 
 import com.Kipper.First_Spring_App.model.User;
-import org. springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,6 +47,6 @@ public class UserService {
 
             return user;
         }
-        return userDetail;
+        return null;
     }
 }
